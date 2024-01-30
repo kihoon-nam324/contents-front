@@ -3,7 +3,7 @@ import Content from '../Content/Content';
 import styles from './ContentsList.module.css';
 import axios from 'axios';
 
-export default function ContentsList({ filter }) {
+export default function ContentsList() {
   const [contents, setContents] = useState([]);
   
   const handleDelete = async (id) => {
